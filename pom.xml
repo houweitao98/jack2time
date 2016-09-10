@@ -6,6 +6,8 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
+    
+  
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
@@ -14,9 +16,7 @@
           <target>1.7</target>
         </configuration>
       </plugin>
-    </plugins>
-  </build>
-   <plugin>
+       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
         <version>1.2.1</version>
@@ -36,5 +36,8 @@
             </execution>
         </executions>
      </plugin>
+    </plugins>
+  </build>
+  
   
 </project>
