@@ -2,7 +2,8 @@
  * 2016年9月10日 下午4:44:25
  * @auto Jack.Hou
  * @Copyright 1999-2020 http://www.yihecloud.com/ Croporation Limited.
- */ package com.yihecloud.hwt;
+ */ 
+package com.yihecloud.hwt;
 
 import java.math.BigDecimal;
 import java.text.DateFormat;
